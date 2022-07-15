@@ -9,7 +9,7 @@
           Linear helps streamline software projects, sprints, tasks, and bug
           tracking. It’s built for high-performance teams.
         </p>
-        <button class="btn btn-primary">Get Started</button>
+        <button class="btn btn-primary text-white">Get Started</button>
       </div>
     </div>
   </div>

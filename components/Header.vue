@@ -1,7 +1,7 @@
 <template>
-  <header class="sticky top-0 z-50">
+  <header class="sticky top-0 z-50 border-b-2 border-gray-100">
     <Popover class="relative bg-gray-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 border-b-2 border-gray-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div
           class="flex justify-between items-center py-4 md:justify-start md:space-x-10"
         >
@@ -9,8 +9,8 @@
             <a href="#">
               <span class="sr-only">Workflow</span>
               <img
-                class="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                class="h-12 w-auto sm:h-12"
+                src="~/assets/img/logo3.svg"
                 alt=""
               />
             </a>
@@ -64,7 +64,7 @@
             </a>
             <a
               href="#"
-              class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+              class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white btn btn-primary"
             >
               Sign up
             </a>
@@ -129,7 +129,7 @@
               <div>
                 <a
                   href="#"
-                  class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+                  class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white btn btn-primary"
                 >
                   Sign up
                 </a>
