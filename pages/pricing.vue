@@ -1,0 +1,4 @@
+<template>
+  <PricingHero />
+  <PricingPriceList />
+</template>

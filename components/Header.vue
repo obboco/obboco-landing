@@ -1,5 +1,5 @@
 <template>
-  <header class="sticky top-0 z-50 border-b-2 border-gray-100">
+  <header class="sticky top-0 z-50 border-b-2 border-gray-200">
     <Popover class="relative bg-gray-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6">
         <div
@@ -35,24 +35,6 @@
               class="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Pricing
-            </a>
-            <a
-              href="#"
-              class="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Customers
-            </a>
-            <a
-              href="#"
-              class="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Changelog
-            </a>
-            <a
-              href="#"
-              class="text-base font-medium text-gray-500 hover:text-gray-900"
-            >
-              Company
             </a>
           </PopoverGroup>
           <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
