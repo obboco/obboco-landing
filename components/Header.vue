@@ -10,7 +10,7 @@
               <span class="sr-only">Workflow</span>
               <img
                 class="h-12 w-auto sm:h-12"
-                src="~/assets/img/logo3.svg"
+                src="~/assets/img/logo.svg"
                 alt=""
               />
             </a>
