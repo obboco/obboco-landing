@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   tailwindcss: {
     exposeConfig: true
   },
+  build: {
+    transpile: ['@heroicons/vue']
+  },
   head: {
     title: 'nuxt-tailwindcss',
     meta: [
