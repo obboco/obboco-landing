@@ -9,7 +9,7 @@
             <a href="#">
               <span class="sr-only">Workflow</span>
               <img
-                class="h-12 w-auto sm:h-12"
+                class="h-8 w-auto sm:h-8"
                 src="~/assets/img/logo.svg"
                 alt=""
               />
