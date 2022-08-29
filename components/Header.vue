@@ -11,7 +11,7 @@
               <img
                 class="h-8 w-auto sm:h-8"
                 src="~/assets/img/logo.svg"
-                alt=""
+                alt="Obboco logo"
               />
             </a>
           </div>
@@ -39,13 +39,13 @@
           </PopoverGroup>
           <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <a
-              href="#"
+              :href="loginUrl"
               class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
             >
               Sign in
             </a>
             <a
-              href="#"
+              :href="loginUrl"
               class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white btn btn-primary"
             >
               Sign up
@@ -110,7 +110,7 @@
             <div class="py-6 px-5 space-y-6">
               <div>
                 <a
-                  href="#"
+                  href="{{ process.env.NUXT_LOGIN_URL }}"
                   class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white btn btn-primary"
                 >
                   Sign up
@@ -152,6 +152,8 @@ import {
   XIcon
 } from '@heroicons/vue/outline';
 import { ChevronDownIcon } from '@heroicons/vue/solid';
+
+const loginUrl = process.env.NUXT_LOGIN_URL;
 
 const solutions = [
   {
