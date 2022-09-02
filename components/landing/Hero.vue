@@ -9,11 +9,17 @@
           Linear helps streamline software projects, sprints, tasks, and bug
           tracking. It’s built for high-performance teams.
         </p>
-        <button class="btn btn-primary text-white">Get Started</button>
+        <a :href="registerUrl" class="btn btn-primary text-white">
+          Get Started
+        </a>
       </div>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const registerUrl = process.env.NUXT_REGISTER_URL;
+</script>
 
 <style scoped>
 .title {
