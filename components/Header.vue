@@ -45,7 +45,7 @@
               Sign in
             </a>
             <a
-              :href="loginUrl"
+              :href="registerUrl"
               class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white btn btn-primary"
             >
               Sign up
@@ -110,7 +110,7 @@
             <div class="py-6 px-5 space-y-6">
               <div>
                 <a
-                  href="{{ process.env.NUXT_LOGIN_URL }}"
+                  :href="registerUrl"
                   class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white btn btn-primary"
                 >
                   Sign up
@@ -118,7 +118,10 @@
                 <p class="mt-6 text-center text-base font-medium text-gray-500">
                   Existing customer?
                   {{ ' ' }}
-                  <a href="#" class="text-indigo-600 hover:text-indigo-500">
+                  <a
+                    :href="loginUrl"
+                    class="text-indigo-600 hover:text-indigo-500"
+                  >
                     Sign in
                   </a>
                 </p>
@@ -154,6 +157,7 @@ import {
 import { ChevronDownIcon } from '@heroicons/vue/solid';
 
 const loginUrl = process.env.NUXT_LOGIN_URL;
+const registerUrl = process.env.NUXT_REGISTER_URL;
 
 const solutions = [
   {
