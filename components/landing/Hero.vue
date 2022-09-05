@@ -1,5 +1,5 @@
 <template>
-  <div class="hero min-h-screen">
+  <div class="hero min-h-screen border-t-2 border-gray-200">
     <div class="hero-content text-center">
       <div class="max-w-4xl">
         <h1 class="title text-7xl font-bold py-2">
