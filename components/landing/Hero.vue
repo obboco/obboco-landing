@@ -1,23 +1,34 @@
 <template>
   <div class="hero min-h-screen border-t-2 border-gray-200">
-    <div class="hero-content text-center">
+    <div class="hero-content text-center flex flex-col">
       <div class="max-w-4xl">
-        <h1 class="title text-7xl font-bold py-2">
-          The issue tracking tool you'll enjoy using
+        <h1 class="title lg:text-7xl text-5xl font-bold py-2">
+          Run you day to day business in 10 minutes.
         </h1>
-        <p class="text-3xl py-6">
-          Linear helps streamline software projects, sprints, tasks, and bug
-          tracking. It’s built for high-performance teams.
+        <p class="text-xl lg:text-3xl py-7 text-gray-600">
+          Obboco helps you to manage your activities, bookings, customers and
+          revenue with no effort. It’s built for entrepreneurs and small
+          business.
         </p>
-        <a :href="registerUrl" class="btn btn-primary text-white">
-          Get Started
+        <a :href="registerUrl" class="singup-button">
+          Sign up for free
+          <ArrowRightIcon class="h-5 w-5 ml-2" />
         </a>
+      </div>
+      <div>
+        <img
+          class="image-hero"
+          src="~/assets/img/hero-photo.png"
+          alt="Obboco activity page"
+        />
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { ArrowRightIcon } from '@heroicons/vue/outline';
+
 const registerUrl = process.env.NUXT_REGISTER_URL;
 </script>
 
@@ -26,5 +37,12 @@ const registerUrl = process.env.NUXT_REGISTER_URL;
   background: -webkit-linear-gradient(#48ac98, #2a6879);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.image-hero {
+  @apply w-auto mt-10 lg:mt-32 lg:max-w-5xl;
+}
+
+.singup-button {
+  @apply btn btn-primary text-lg px-6  py-[10px] text-white bg-gradient-to-r from-teal-600 to-teal-800 border-0;
 }
 </style>
