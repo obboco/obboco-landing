@@ -3,12 +3,12 @@
     <div class="hero-content text-center flex flex-col">
       <div class="max-w-4xl">
         <h1 class="title lg:text-7xl text-5xl font-bold py-2">
-          Run you day to day business in 10 minutes.
+          Run your day to day business in 10 minutes.
         </h1>
         <p class="text-xl lg:text-3xl py-7 text-gray-600">
           Obboco helps you to manage your activities, bookings, customers and
           revenue with no effort. It’s built for entrepreneurs and small
-          business.
+          businesses.
         </p>
         <a :href="registerUrl" class="singup-button">
           Sign up for free
