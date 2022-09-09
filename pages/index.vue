@@ -2,4 +2,5 @@
   <LandingHero />
   <LandingFeatures />
   <LandingDescription />
+  <LandingPostHero />
 </template>

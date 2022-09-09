@@ -1,14 +1,14 @@
 <template>
-  <div class="min-h-screen bg-gray-100 flex justify-center mx-2">
+  <div class="bg-gray-100 flex justify-center mx-2 py-24">
     <div
       class="flex flex-col justify-center items-center"
       style="width: 1200px"
     >
-      <div class="flex flex-col text-center py-24 lg:w-2/3">
+      <div class="flex flex-col text-center pb-24 lg:w-2/3">
         <div class="text-gray-600 text-4xl lg:text-5xl font-bold">
           An experience you'd expect from a professional tool.
         </div>
-        <div>Opinionated and designed for daily use.</div>
+        <div class="text-2xl mt-4">Opinionated and designed for daily use.</div>
       </div>
       <div class="grid lg:grid-cols-3 gap-6">
         <div
@@ -20,7 +20,7 @@
           <div>
             <component
               :is="feature.icon"
-              class="h-10 w-10 mr-2 mb-3"
+              class="h-7 w-7 mr-2 mb-3"
               v-bind:style="{ color: feature.class }"
             />
           </div>
@@ -33,48 +33,57 @@
 </template>
 
 <script setup lang="ts">
-import { ArrowRightIcon } from '@heroicons/vue/outline';
+import {
+  ArrowRightIcon,
+  ArrowSmUpIcon,
+  ChartBarIcon,
+  ChevronDoubleRightIcon,
+  CubeIcon,
+  CubeTransparentIcon,
+  DeviceMobileIcon,
+  GlobeIcon,
+  PresentationChartLineIcon,
+  TemplateIcon,
+  TrendingUpIcon,
+  UserIcon
+} from '@heroicons/vue/outline';
 const featuresBox = [
   {
-    icon: ArrowRightIcon,
+    icon: ChevronDoubleRightIcon,
     title: 'Built for speed',
     description:
       'Synchronized in real-time across all users. No spinners or waiting.',
     class: '#2a6879'
   },
   {
-    icon: ArrowRightIcon,
-    title: 'Built for speed',
-    description:
-      'Synchronized in real-time across all users. No spinners or waiting.',
+    icon: UserIcon,
+    title: 'For entrepreneurs',
+    description: 'Created by software engineers for entrepreneus.',
     class: '#c89d58'
   },
   {
-    icon: ArrowRightIcon,
-    title: 'Built for speed',
-    description:
-      'Synchronized in real-time across all users. No spinners or waiting.',
+    icon: DeviceMobileIcon,
+    title: 'Designed for desktop and mobile',
+    description: 'Use your phone or your laptop, it works!',
     class: '#2a6879'
   },
   {
-    icon: ArrowRightIcon,
-    title: 'Built for speed',
-    description:
-      'Synchronized in real-time across all users. No spinners or waiting.',
+    icon: TrendingUpIcon,
+    title: 'Free as you grow',
+    description: 'No cost to help you to grow your business.',
     class: '#cb7c7a'
   },
   {
-    icon: ArrowRightIcon,
-    title: 'Built for speed',
+    icon: TemplateIcon,
+    title: 'Curated design',
     description:
-      'Synchronized in real-time across all users. No spinners or waiting.',
+      'Designed carefully to make it simple and easy to use it with a few clicks.',
     class: '#2a6879'
   },
   {
-    icon: ArrowRightIcon,
-    title: 'Built for speed',
-    description:
-      'Synchronized in real-time across all users. No spinners or waiting.',
+    icon: GlobeIcon,
+    title: 'Use it everywhere',
+    description: 'Access and make changes quickly whenever you are.',
     class: '#cb7c7a'
   }
 ];

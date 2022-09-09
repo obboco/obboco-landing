@@ -2,23 +2,24 @@
   <div class="hero min-h-screen border-t-2 border-gray-200">
     <div class="hero-content text-center flex flex-col">
       <div class="max-w-4xl">
-        <h1 class="title">Run your day to day business in 10 minutes.</h1>
-        <p class="text-xl lg:text-3xl py-7 text-gray-600">
+        <div class="flex justify-center">
+          <img
+            class="image-hero"
+            src="~/assets/img/logo.svg"
+            alt="Obboco activity page"
+          />
+        </div>
+        <h1 class="lg:text-7xl text-5xl font-bold py-2 text-gray-600">
+          Get started with Obboco today.
+        </h1>
+        <p class="text-xl lg:text-3xl py-7 text-gray-900">
           Obboco helps you to manage your activities, bookings, customers and
-          revenue with no effort. It’s built for entrepreneurs and small
-          businesses.
+          revenue with no effort.
         </p>
         <a :href="registerUrl" class="singup-button">
           Sign up for free
           <ArrowRightIcon class="h-5 w-5 ml-2" />
         </a>
-      </div>
-      <div>
-        <img
-          class="image-hero"
-          src="~/assets/img/hero-photo.png"
-          alt="Obboco activity page"
-        />
       </div>
     </div>
   </div>
@@ -32,13 +33,12 @@ const registerUrl = process.env.NUXT_REGISTER_URL;
 
 <style scoped>
 .title {
-  @apply lg:text-7xl text-5xl font-bold py-16;
   background: -webkit-linear-gradient(#48ac98, #2a6879);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .image-hero {
-  @apply w-auto mt-10 lg:mt-32 lg:max-w-5xl;
+  @apply w-80 mt-10 lg:mt-32 lg:max-w-5xl mb-6;
 }
 
 .singup-button {

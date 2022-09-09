@@ -1,51 +1,97 @@
 <template>
-  <div class="min-h-screen">
-    <div class="p-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div>1</div>
-      <div class="p-4 leading-relaxed antialiased">
-        <p class="text-2xl font-bold">Fast Refresh</p>
-        <p>Reliable live-editing experience for your UI components.</p>
-        <p class="mt-6 text-2xl font-bold">Flexible Data Fetching</p>
-        <p>
-          Connect your pages to any data source, headless CMS, or API and make
-          it work in everyone’s dev environment.
+  <div class="min-h-screen flex justify-center">
+    <div
+      class="p-4 grid grid-cols-1 md:grid-cols-2 gap-4"
+      style="width: 1200px"
+    >
+      <div class="p-4 leading-relaxed antialiased flex flex-col justify-center">
+        <p class="text-gray-600 text-4xl lg:text-5xl font-bold">
+          Interface, streamlined.
         </p>
-        <p class="mt-6 text-2xl font-bold">Edge on Localhost</p>
-        <p>
-          From caching to Serverless Functions, all our cloud primitives work
-          perfectly on localhost.
+        <p class="text-gray-900 text-xl font-bold mt-4">
+          Robust. Fast to navigate. Create issues in seconds. Add priorities,
+          labels and estimates. List and board. See your issues in either a list
+          or board view.
         </p>
       </div>
-      <div class="p-4 leading-relaxed antialiased">
-        <p class="text-2xl font-bold">Fast Refresh</p>
-        <p>Reliable live-editing experience for your UI components.</p>
-        <p class="mt-6 text-2xl font-bold">Flexible Data Fetching</p>
-        <p>
-          Connect your pages to any data source, headless CMS, or API and make
-          it work in everyone’s dev environment.
-        </p>
-        <p class="mt-6 text-2xl font-bold">Edge on Localhost</p>
-        <p>
-          From caching to Serverless Functions, all our cloud primitives work
-          perfectly on localhost.
-        </p>
+      <div>
+        <div class="olele">
+          <img
+            class="img"
+            src="~/assets/img/description-1.png"
+            alt="Obboco activity page"
+          />
+        </div>
       </div>
-      <div>4</div>
-      <div>5</div>
-      <div class="p-4 leading-relaxed antialiased">
-        <p class="text-2xl font-bold">Fast Refresh</p>
-        <p>Reliable live-editing experience for your UI components.</p>
-        <p class="mt-6 text-2xl font-bold">Flexible Data Fetching</p>
-        <p>
-          Connect your pages to any data source, headless CMS, or API and make
-          it work in everyone’s dev environment.
+      <div>
+        <div class="olele2">
+          <img
+            class="img2"
+            src="~/assets/img/description-2.png"
+            alt="Obboco activity page"
+          />
+        </div>
+      </div>
+      <div class="p-4 leading-relaxed antialiased flex flex-col justify-center">
+        <p class="text-gray-600 text-4xl lg:text-5xl font-bold">
+          Interface, streamlined.
         </p>
-        <p class="mt-6 text-2xl font-bold">Edge on Localhost</p>
-        <p>
-          From caching to Serverless Functions, all our cloud primitives work
-          perfectly on localhost.
+        <p class="text-gray-900 text-xl font-bold mt-4">
+          Robust. Fast to navigate. Create issues in seconds. Add priorities,
+          labels and estimates. List and board. See your issues in either a list
+          or board view.
         </p>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.olele {
+  width: 100%;
+  height: 680px;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+  isolation: isolate;
+  max-width: 1100px;
+  background: rgb(200, 157, 88);
+  background: linear-gradient(
+    297deg,
+    rgba(200, 157, 88, 1) 0%,
+    rgba(224, 199, 160, 1) 21%,
+    rgba(249, 250, 251, 1) 100%
+  );
+}
+.img {
+  @apply rounded-lg shadow-lg;
+  width: 61%;
+  position: absolute;
+  top: 8%;
+  transform: translateX(10vw);
+}
+
+.olele2 {
+  width: 100%;
+  height: 680px;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+  isolation: isolate;
+  max-width: 1100px;
+  background: rgb(203, 124, 122);
+  background: linear-gradient(
+    94deg,
+    rgba(203, 124, 122, 1) 0%,
+    rgba(215, 156, 154, 1) 18%,
+    rgba(249, 250, 251, 1) 100%
+  );
+}
+.img2 {
+  @apply rounded-lg shadow-lg;
+  width: 61%;
+  position: absolute;
+  top: 8%;
+  transform: translateX(0vw);
+}
+</style>

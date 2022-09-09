@@ -4,6 +4,6 @@
     <main class="bookingcat">
       <NuxtPage />
     </main>
-    <footer></footer>
+    <Footer />
   </div>
 </template>
