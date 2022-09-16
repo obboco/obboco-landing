@@ -6,7 +6,7 @@
           <img
             class="h-8 w-auto sm:h-8"
             src="~/assets/img/logo.svg"
-            alt="Obboco logo"
+            alt="Obboco"
           />
         </a>
       </div>

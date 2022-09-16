@@ -42,6 +42,6 @@ const registerUrl = process.env.NUXT_REGISTER_URL;
 }
 
 .singup-button {
-  @apply btn btn-primary text-lg px-6  py-[10px] text-white bg-gradient-to-r from-teal-600 to-teal-800 border-0;
+  @apply btn btn-primary text-lg px-6  py-[10px] text-white bg-gradient-to-r from-teal-500 to-teal-600 border-0;
 }
 </style>

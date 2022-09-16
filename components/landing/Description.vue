@@ -6,12 +6,12 @@
     >
       <div class="p-4 leading-relaxed antialiased flex flex-col justify-center">
         <p class="text-gray-600 text-4xl lg:text-5xl font-bold">
-          Interface, streamlined.
+          Your activites, bookings and customers under control.
         </p>
         <p class="text-gray-900 text-xl font-bold mt-4">
-          Robust. Fast to navigate. Create issues in seconds. Add priorities,
-          labels and estimates. List and board. See your issues in either a list
-          or board view.
+          Create your own activities. Add your customers and guest. Plan your
+          events in seconds. Match and book your daily events with your
+          customer.
         </p>
       </div>
       <div>
@@ -34,12 +34,12 @@
       </div>
       <div class="p-4 leading-relaxed antialiased flex flex-col justify-center">
         <p class="text-gray-600 text-4xl lg:text-5xl font-bold">
-          Interface, streamlined.
+          Check your revenue, fast.
         </p>
         <p class="text-gray-900 text-xl font-bold mt-4">
-          Robust. Fast to navigate. Create issues in seconds. Add priorities,
-          labels and estimates. List and board. See your issues in either a list
-          or board view.
+          Sell bookings or passes. Check you monthly revenue. Download your
+          income to create invoices and declare taxes with ease in a few
+          minutes!
         </p>
       </div>
     </div>
