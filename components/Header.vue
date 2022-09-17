@@ -29,6 +29,33 @@
               Pricing
             </a>
           </li>
+          <li>
+            <a
+              href="https://obboco.canny.io/"
+              class="text-base font-medium text-gray-500 hover:text-gray-900"
+              target="_blank"
+            >
+              Roadmap
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://obboco.canny.io/obboco"
+              class="text-base font-medium text-gray-500 hover:text-gray-900"
+              target="_blank"
+            >
+              Feedback
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://obboco.canny.io/changelog"
+              class="text-base font-medium text-gray-500 hover:text-gray-900"
+              target="_blank"
+            >
+              Changelog
+            </a>
+          </li>
         </ul>
       </div>
       <div class="navbar-end">
