@@ -90,37 +90,55 @@
                 ></path>
               </svg>
             </label>
-            <div
+            <ul
               tabindex="0"
-              class="mt-3 card card-compact dropdown-content w-52 shadow bg-gray-50 border-gray-200"
+              class="menu menu-compact dropdown-content mt-3 p-2 bg-gray-100 rounded-box w-52"
             >
-              <div class="card-body">
-                <div class="flex items-center">
-                  <ColorSwatchIcon class="h-7 w-7 mr-1 text-gray-500" />
-                  <span class="text-base font-medium text-gray-500">
-                    Features
-                  </span>
-                </div>
-                <div class="flex items-center">
-                  <ViewBoardsIcon class="h-7 w-7 mr-1 text-gray-500" />
-                  <span class="text-base font-medium text-gray-500">
-                    Pricing
-                  </span>
-                </div>
-                <a :href="loginUrl" class="flex items-center text-gray-500">
-                  <UserCircleIcon class="h-7 w-7 mr-1" />
-                  <span class="text-base font-bold"> Sign In </span>
+              <li>
+                <a
+                  ><TicketIcon class="h-7 w-7" />
+                  <span class="text-base font-medium">Features </span></a
+                >
+              </li>
+              <li>
+                <a href="/pricing">
+                  <ColorSwatchIcon class="h-7 w-7 mr-1" />
+                  <span class="text-base font-medium">Pricing </span></a
+                >
+              </li>
+              <li>
+                <a href="https://obboco.canny.io/" target="_blank">
+                  <MapIcon class="h-7 w-7 mr-1" />
+                  <span class="text-base font-medium">Roadmap </span></a
+                >
+              </li>
+              <li>
+                <a href="https://obboco.canny.io/obboco" target="_blank">
+                  <SpeakerphoneIcon class="h-7 w-7 mr-1" />
+                  <span class="text-base font-medium">Feedback </span></a
+                >
+              </li>
+              <li>
+                <a href="https://obboco.canny.io/changelog" target="_blank">
+                  <RssIcon class="h-7 w-7 mr-1" />
+                  <span class="text-base font-medium">Changelog </span></a
+                >
+              </li>
+              <li>
+                <a :href="loginUrl"
+                  ><UserCircleIcon class="h-7 w-7 mr-1" />
+                  <span class="text-base font-bold">Sign In</span></a
+                >
+              </li>
+              <li>
+                <a
+                  :href="registerUrl"
+                  class="btn btn-primary btn-block text-white"
+                >
+                  Sign Up
                 </a>
-                <div class="card-actions">
-                  <a
-                    :href="registerUrl"
-                    class="btn btn-primary btn-block text-white"
-                  >
-                    Sign Up
-                  </a>
-                </div>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -131,7 +149,10 @@
 import {
   UserCircleIcon,
   ColorSwatchIcon,
-  ViewBoardsIcon
+  TicketIcon,
+  SpeakerphoneIcon,
+  RssIcon,
+  MapIcon
 } from '@heroicons/vue/outline';
 
 const loginUrl = process.env.NUXT_LOGIN_URL;
