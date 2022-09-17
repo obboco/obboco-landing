@@ -15,20 +15,20 @@
         </p>
       </div>
       <div>
-        <div class="olele">
+        <div class="bookings">
           <img
-            class="img"
-            src="~/assets/img/description-1.png"
-            alt="Obboco activity page"
+            class="bookings-img"
+            src="~/assets/img/bookings.webp"
+            alt="Obboco bookings page"
           />
         </div>
       </div>
       <div>
-        <div class="olele2">
+        <div class="wallet">
           <img
-            class="img2"
-            src="~/assets/img/description-2.png"
-            alt="Obboco activity page"
+            class="wallet-img"
+            src="~/assets/img/wallet.webp"
+            alt="Obboco wallet page"
           />
         </div>
       </div>
@@ -47,7 +47,7 @@
 </template>
 
 <style scoped>
-.olele {
+.bookings {
   width: 100%;
   height: 680px;
   border-radius: 24px;
@@ -63,7 +63,7 @@
     rgba(249, 250, 251, 1) 100%
   );
 }
-.img {
+.bookings-img {
   @apply rounded-lg shadow-lg;
   width: 61%;
   position: absolute;
@@ -71,7 +71,7 @@
   transform: translateX(10vw);
 }
 
-.olele2 {
+.wallet {
   width: 100%;
   height: 680px;
   border-radius: 24px;
@@ -87,7 +87,7 @@
     rgba(249, 250, 251, 1) 100%
   );
 }
-.img2 {
+.wallet-img {
   @apply rounded-lg shadow-lg;
   width: 61%;
   position: absolute;

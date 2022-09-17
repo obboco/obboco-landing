@@ -16,7 +16,7 @@
       <div>
         <img
           class="image-hero"
-          src="~/assets/img/hero-photo.png"
+          src="~/assets/img/hero-photo.webp"
           alt="Obboco activity page"
         />
       </div>
