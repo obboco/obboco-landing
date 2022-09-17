@@ -11,8 +11,8 @@
         </a>
       </div>
 
-      <div class="navbar-center hidden md:flex">
-        <ul class="menu menu-horizontal p-0">
+      <div class="navbar-center w-max">
+        <ul class="menu menu-horizontal p-0 hidden md:flex">
           <li>
             <a
               href="/"
@@ -149,6 +149,5 @@ const registerUrl = process.env.NUXT_REGISTER_URL;
 
 .navbar-end {
   justify-content: flex-end;
-  @apply w-auto md:w-1/2;
 }
 </style>
