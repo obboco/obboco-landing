@@ -4,7 +4,9 @@
       class="p-4 grid grid-cols-1 md:grid-cols-2 gap-4"
       style="width: 1200px"
     >
-      <div class="p-4 leading-relaxed antialiased flex flex-col justify-center">
+      <div
+        class="p-4 leading-relaxed antialiased flex flex-col justify-center order-1 lg:order-1"
+      >
         <p class="text-gray-600 text-4xl lg:text-5xl font-bold">
           Your activites, bookings and customers under control.
         </p>
@@ -14,25 +16,31 @@
           customer.
         </p>
       </div>
-      <div>
-        <div class="bookings">
-          <img
-            class="bookings-img"
-            src="~/assets/img/bookings.webp"
-            alt="Obboco bookings page"
-          />
-        </div>
+      <div class="flex justify-center order-2 lg:order-2">
+        <iframe
+          width="400"
+          height="655"
+          src="https://www.loom.com/embed/93756581ebc24c1984b1f2c8b24b09b6"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+        ></iframe>
       </div>
-      <div>
-        <div class="wallet">
-          <img
-            class="wallet-img"
-            src="~/assets/img/wallet.webp"
-            alt="Obboco wallet page"
-          />
-        </div>
+      <div class="flex justify-center order-4 lg:order-3">
+        <iframe
+          width="400"
+          height="655"
+          src="https://www.loom.com/embed/a05d742de4fa48e38861bd038dc2b67a"
+          frameborder="0"
+          webkitallowfullscreen
+          mozallowfullscreen
+          allowfullscreen
+        ></iframe>
       </div>
-      <div class="p-4 leading-relaxed antialiased flex flex-col justify-center">
+      <div
+        class="p-4 leading-relaxed antialiased flex flex-col justify-center order-3 lg:order-4"
+      >
         <p class="text-gray-600 text-4xl lg:text-5xl font-bold">
           Check your revenue, fast.
         </p>
