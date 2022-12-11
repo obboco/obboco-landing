@@ -1,7 +1,10 @@
 <template>
   <footer class="footer">
     <div class="footer-content">
-      <p>Copyright © 2022 - All right reserved</p>
+      <div>
+        <p>Copyright © 2022 - All right reserved</p>
+        <a href="/privacy-policy">Privacy Policy</a>
+      </div>
       <div class="made">
         Made with <HeartIcon class="h-7 w-7 m-1 text-red-400" /> from Barcelona.
       </div>
