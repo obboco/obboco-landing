@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="footer-content">
       <div>
-        <p>Copyright © 2022 - All right reserved</p>
+        <p>Copyright © 2023 - All right reserved</p>
         <a href="/privacy-policy">Privacy Policy</a>
       </div>
       <div class="made">
