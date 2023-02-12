@@ -5,6 +5,18 @@
         <p>Copyright © 2023 - All right reserved</p>
         <a href="/privacy-policy">Privacy Policy</a>
       </div>
+      <div>
+        <a
+          href="https://vercel.com?utm_source=obboco&utm_campaign=oss"
+          target="_blank"
+        >
+          <img
+            class="h-8 w-auto sm:h-8"
+            src="~/assets/img/powered-by-vercel.svg"
+            alt="Obboco"
+          />
+        </a>
+      </div>
       <div class="made">
         Made with <HeartIcon class="h-7 w-7 m-1 text-red-400" /> from Barcelona.
       </div>
