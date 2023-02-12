@@ -1,6 +1,6 @@
 # Obboco Landing page
 
-Landing page for (obboco.com)[www.obboco.com]
+Landing page -> [obboco](www.obboco.com)
 
 ## Setup
 
