@@ -4,8 +4,8 @@
       <div class="max-w-4xl">
         <h1 class="title">Run your day to day business in 10 minutes.</h1>
         <p class="text-xl lg:text-3xl py-7 text-gray-600">
-          Meet <strong>Obboco</strong> helps you to manage your activities,
-          bookings, customers and revenue with no effort.
+          <strong>Obboco</strong> helps you to manage your activities, bookings,
+          customers and revenue with no effort.
           <strong>Free for individuals and open source</strong>
         </p>
         <a :href="registerUrl" class="singup-button">
