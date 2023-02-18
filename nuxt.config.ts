@@ -3,8 +3,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     apiSecret: '',
     public: {
-      loginUrl: '',
-      registerUrl: ''
+      loginUrl: process.env.NUXT_LOGIN_URL,
+      registerUrl: process.env.NUXT_REGISTER_URL
     }
   }
 });
