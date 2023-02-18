@@ -214,22 +214,24 @@
   </div>
 </template>
 <script>
-export default {
-  head: {
-    title: 'Obboco | Privacy',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'Obboco',
-        name: 'Privacy Policy for Obboco',
-        content:
-          'Obboco helps you to manage your activities, bookings, customers and revenue for free. Privacy Policy for Obboco'
-      }
-    ],
-    link: [{ rel: 'icon', type: 'image/svg', href: '/favicon.ico' }]
+export default defineNuxtComponent({
+  head(nuxtApp) {
+    return {
+      title: 'Obboco | Privacy',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'Obboco',
+          name: 'Privacy Policy for Obboco',
+          content:
+            'Obboco helps you to manage your activities, bookings, customers and revenue for free. Privacy Policy for Obboco'
+        }
+      ],
+      link: [{ rel: 'icon', type: 'image/svg', href: '/favicon.ico' }]
+    };
   }
-};
+});
 </script>
 <style scoped>
 h1 {
