@@ -42,5 +42,6 @@ const props = defineProps({
     type: Object as PropType<PricingPlan>
   }
 });
-const registerUrl = process.env.NUXT_REGISTER_URL;
+const runtimeConfig = useRuntimeConfig();
+const registerUrl = runtimeConfig.registerUrl;
 </script>
