@@ -12,7 +12,7 @@
   </footer>
 </template>
 <script setup lang="ts">
-import { HeartIcon } from '@heroicons/vue/solid';
+import { HeartIcon } from '@heroicons/vue/24/solid';
 </script>
 
 <style scoped>

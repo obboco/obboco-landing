@@ -34,7 +34,7 @@
 
 <script setup lang="ts">
 import { PropType } from 'vue';
-import { CheckCircleIcon, ArrowRightIcon } from '@heroicons/vue/outline';
+import { CheckCircleIcon, ArrowRightIcon } from '@heroicons/vue/24/outline';
 import { PricingPlan } from '~~/types/PrincingPlan';
 
 const props = defineProps({

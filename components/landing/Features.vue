@@ -35,18 +35,18 @@
 <script setup lang="ts">
 import {
   ArrowRightIcon,
-  ArrowSmUpIcon,
+  ArrowUpIcon,
   ChartBarIcon,
   ChevronDoubleRightIcon,
   CubeIcon,
   CubeTransparentIcon,
-  DeviceMobileIcon,
-  GlobeIcon,
+  DevicePhoneMobileIcon,
+  GlobeEuropeAfricaIcon,
   PresentationChartLineIcon,
-  TemplateIcon,
-  TrendingUpIcon,
+  SparklesIcon,
+  ArrowTrendingUpIcon,
   UserIcon
-} from '@heroicons/vue/outline';
+} from '@heroicons/vue/24/outline';
 const featuresBox = [
   {
     icon: ChevronDoubleRightIcon,
@@ -62,26 +62,26 @@ const featuresBox = [
     class: '#c89d58'
   },
   {
-    icon: DeviceMobileIcon,
+    icon: DevicePhoneMobileIcon,
     title: 'Designed for desktop and mobile',
     description: 'Use your phone or your laptop, it works!',
     class: '#2a6879'
   },
   {
-    icon: TrendingUpIcon,
+    icon: ArrowTrendingUpIcon,
     title: 'Free as you grow',
     description: 'No cost to help you to grow your business.',
     class: '#cb7c7a'
   },
   {
-    icon: TemplateIcon,
+    icon: SparklesIcon,
     title: 'Curated design',
     description:
       'Designed carefully to make it simple and easy to use it with a few clicks.',
     class: '#2a6879'
   },
   {
-    icon: GlobeIcon,
+    icon: GlobeEuropeAfricaIcon,
     title: 'Use it everywhere',
     description: 'Access and make changes quickly whenever you are.',
     class: '#cb7c7a'

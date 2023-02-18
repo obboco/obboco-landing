@@ -102,7 +102,7 @@
               </li>
               <li>
                 <a href="/pricing">
-                  <ColorSwatchIcon class="h-7 w-7 mr-1" />
+                  <SwatchIcon class="h-7 w-7 mr-1" />
                   <span class="text-base font-medium">Pricing </span></a
                 >
               </li>
@@ -114,7 +114,7 @@
               </li>
               <li>
                 <a href="https://obboco.canny.io/obboco" target="_blank">
-                  <SpeakerphoneIcon class="h-7 w-7 mr-1" />
+                  <MegaphoneIcon class="h-7 w-7 mr-1" />
                   <span class="text-base font-medium">Feedback </span></a
                 >
               </li>
@@ -148,15 +148,16 @@
 <script setup lang="ts">
 import {
   UserCircleIcon,
-  ColorSwatchIcon,
+  SwatchIcon,
   TicketIcon,
-  SpeakerphoneIcon,
+  MegaphoneIcon,
   RssIcon,
   MapIcon
-} from '@heroicons/vue/outline';
+} from '@heroicons/vue/24/outline';
 
-const loginUrl = process.env.NUXT_LOGIN_URL;
-const registerUrl = process.env.NUXT_REGISTER_URL;
+const runtimeConfig = useRuntimeConfig();
+const loginUrl = runtimeConfig.loginUrl;
+const registerUrl = runtimeConfig.registerUrl;
 </script>
 
 <style scoped>

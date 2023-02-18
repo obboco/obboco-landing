@@ -25,9 +25,10 @@
 </template>
 
 <script setup lang="ts">
-import { ArrowRightIcon } from '@heroicons/vue/outline';
+import { ArrowRightIcon } from '@heroicons/vue/24/outline';
 
-const registerUrl = process.env.NUXT_REGISTER_URL;
+const runtimeConfig = useRuntimeConfig();
+const registerUrl = runtimeConfig.registerUrl;
 </script>
 
 <style scoped>
