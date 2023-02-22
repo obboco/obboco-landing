@@ -23,10 +23,10 @@
           </li>
           <li>
             <a
-              href="/pricing"
+              href="/plans"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
             >
-              Pricing
+              Plans
             </a>
           </li>
           <li>
@@ -101,7 +101,7 @@
                 >
               </li>
               <li>
-                <a href="/pricing">
+                <a href="/plans">
                   <SwatchIcon class="h-7 w-7 mr-1" />
                   <span class="text-base font-medium">Pricing </span></a
                 >

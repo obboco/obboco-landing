@@ -1,5 +1,5 @@
-export interface PricingPlan {
-  plan: string;
+export interface Plan {
+  name: string;
   price: string;
   description: string;
   features: Array<PlanFeature>;

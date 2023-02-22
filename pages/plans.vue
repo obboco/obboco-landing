@@ -1,12 +1,12 @@
 <template>
-  <PricingHero />
-  <PricingPriceList />
+  <PlansHero />
+  <PlansList />
 </template>
 <script>
 export default defineNuxtComponent({
   head(nuxtApp) {
     return {
-      title: 'Obboco | Pricing',
+      title: 'Obboco | Plans',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

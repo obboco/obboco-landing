@@ -3,16 +3,16 @@
     class="flex flex-col justify-between border-2 border-gray-300 rounded-md m-2 shadow-gray-300 shadow-lg"
   >
     <div class="text-left border-gray-300 border-b-2 p-6">
-      <div class="text-3xl font-bold">{{ pricingPlan.plan }}</div>
-      <div class="text-lg">{{ pricingPlan.price }}</div>
+      <div class="text-3xl font-bold">{{ plan.name }}</div>
+      <div class="text-lg">{{ plan.price }}</div>
       <div class="text-lg text-gray-500">
-        {{ pricingPlan.description }}
+        {{ plan.description }}
       </div>
     </div>
     <div class="px-6 py-8">
       <div
         class="flex items-center"
-        v-for="feature in pricingPlan.features"
+        v-for="feature in plan.features"
         :key="feature.feature"
       >
         <CheckCircleIcon class="h-7 w-7 mr-1 text-primary" />
@@ -35,11 +35,11 @@
 <script setup lang="ts">
 import { PropType } from 'vue';
 import { CheckCircleIcon, ArrowRightIcon } from '@heroicons/vue/24/outline';
-import { PricingPlan } from '~~/types/PrincingPlan';
+import { Plan } from '~~/types/Plan';
 
 const props = defineProps({
-  pricingPlan: {
-    type: Object as PropType<PricingPlan>
+  plan: {
+    type: Object as PropType<Plan>
   }
 });
 const runtimeConfig = useRuntimeConfig();
