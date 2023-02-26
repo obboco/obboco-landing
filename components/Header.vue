@@ -135,6 +135,20 @@
                 >
               </li>
               <li>
+                <a
+                  href="https://github.com/obboco"
+                  class="text-base font-medium"
+                  target="_blank"
+                >
+                  <font-awesome-icon
+                    class="h-7 w-7 mr-1"
+                    icon="fa-brands fa-github"
+                    size="lg"
+                  />
+                  Github
+                </a>
+              </li>
+              <li>
                 <a :href="loginUrl"
                   ><UserCircleIcon class="h-7 w-7 mr-1" />
                   <span class="text-base font-bold">Sign In</span></a
