@@ -39,7 +39,7 @@ const registerUrl = runtimeConfig.registerUrl;
   -webkit-text-fill-color: transparent;
 }
 .image-hero {
-  @apply w-auto mt-10 lg:mt-32 lg:max-w-5xl;
+  @apply w-auto mt-10 lg:mt-32 lg:max-w-5xl p-4 rounded-lg shadow-2xl;
 }
 
 .singup-button {
