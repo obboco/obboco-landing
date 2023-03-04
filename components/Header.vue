@@ -18,6 +18,7 @@
               href="/"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
             >
+              <font-awesome-icon icon="fa-solid fa-bolt" size="lg" />
               Features
             </a>
           </li>
@@ -26,33 +27,27 @@
               href="/plans"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
             >
+              <font-awesome-icon icon="fa-solid fa-layer-group" size="lg" />
               Plans
             </a>
           </li>
           <li>
             <a
-              href="https://obboco.canny.io/"
+              href="https://github.com/orgs/obboco/projects/1/views/3"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
               target="_blank"
             >
+              <font-awesome-icon icon="fa-solid fa-route" size="lg" />
               Roadmap
             </a>
           </li>
           <li>
             <a
-              href="https://obboco.canny.io/obboco"
+              href="https://github.com/orgs/obboco/discussions"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
               target="_blank"
             >
-              Feedback
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://obboco.canny.io/changelog"
-              class="text-base font-medium text-gray-500 hover:text-gray-900"
-              target="_blank"
-            >
+              <font-awesome-icon icon="fa-regular fa-comment" size="lg" />
               Changelog
             </a>
           </li>
@@ -106,31 +101,31 @@
             >
               <li>
                 <a
-                  ><TicketIcon class="h-7 w-7" />
+                  ><font-awesome-icon icon="fa-solid fa-bolt" size="lg" />
                   <span class="text-base font-medium">Features </span></a
                 >
               </li>
               <li>
                 <a href="/plans">
-                  <SwatchIcon class="h-7 w-7 mr-1" />
+                  <font-awesome-icon icon="fa-solid fa-layer-group" size="lg" />
                   <span class="text-base font-medium">Pricing </span></a
                 >
               </li>
               <li>
-                <a href="https://obboco.canny.io/" target="_blank">
-                  <MapIcon class="h-7 w-7 mr-1" />
+                <a
+                  href="https://github.com/orgs/obboco/projects/1/views/3"
+                  target="_blank"
+                >
+                  <font-awesome-icon icon="fa-solid fa-route" size="lg" />
                   <span class="text-base font-medium">Roadmap </span></a
                 >
               </li>
               <li>
-                <a href="https://obboco.canny.io/obboco" target="_blank">
-                  <MegaphoneIcon class="h-7 w-7 mr-1" />
-                  <span class="text-base font-medium">Feedback </span></a
+                <a
+                  href="https://github.com/orgs/obboco/discussions"
+                  target="_blank"
                 >
-              </li>
-              <li>
-                <a href="https://obboco.canny.io/changelog" target="_blank">
-                  <RssIcon class="h-7 w-7 mr-1" />
+                  <font-awesome-icon icon="fa-regular fa-comment" size="lg" />
                   <span class="text-base font-medium">Changelog </span></a
                 >
               </li>
@@ -170,14 +165,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import {
-  UserCircleIcon,
-  SwatchIcon,
-  TicketIcon,
-  MegaphoneIcon,
-  RssIcon,
-  MapIcon
-} from '@heroicons/vue/24/outline';
+import { UserCircleIcon } from '@heroicons/vue/24/outline';
 
 const runtimeConfig = useRuntimeConfig();
 const loginUrl = runtimeConfig.loginUrl;
