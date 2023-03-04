@@ -15,7 +15,7 @@
         <ul class="menu menu-horizontal p-0 hidden md:flex">
           <li>
             <a
-              href="/"
+              href="#features"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               <font-awesome-icon icon="fa-solid fa-bolt" size="lg" />
@@ -100,7 +100,7 @@
               class="menu menu-compact dropdown-content mt-3 p-2 bg-gray-100 rounded-box w-52"
             >
               <li>
-                <a
+                <a href="#features"
                   ><font-awesome-icon icon="fa-solid fa-bolt" size="lg" />
                   <span class="text-base font-medium">Features </span></a
                 >

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex justify-center">
+  <div id="features" class="min-h-screen flex justify-center">
     <div
       class="p-4 grid grid-cols-1 md:grid-cols-2 gap-4"
       style="width: 1200px"
