@@ -1,5 +1,5 @@
 <template>
-  <div class="hero min-h-screen border-t-2 border-gray-200">
+  <div class="hero min-h-screen">
     <div class="hero-content text-center flex flex-col">
       <div class="max-w-4xl">
         <h1 class="title">Run your day to day business in 10 minutes.</h1>

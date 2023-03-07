@@ -1,33 +1,33 @@
 <template>
-  <div
-    class="flex flex-col justify-between border-2 border-gray-300 rounded-md m-2 shadow-gray-300 shadow-lg"
-  >
-    <div class="text-left border-gray-300 border-b-2 p-6">
-      <div class="text-3xl font-bold">{{ plan.name }}</div>
-      <div class="text-lg">{{ plan.price }}</div>
-      <div class="text-lg text-gray-500">
-        {{ plan.description }}
+  <div class="card">
+    <div class="bg-white p-5">
+      <div class="text-center">
+        <div class="text-3xl font-bold">{{ plan.name }}</div>
+        <div class="description">
+          {{ plan.description }}
+        </div>
+      </div>
+      <div class="text-center pb-6">
+        <div class="text-2xl font-bold">{{ plan.price }}</div>
+      </div>
+      <div class="flex justify-center">
+        <a :href="registerUrl">
+          <button class="get-started-button">
+            {{ plan?.buttonText }}
+            <ArrowRightIcon class="h-7 w-7 mr-1 text-white" />
+          </button>
+        </a>
       </div>
     </div>
     <div class="px-6 py-8">
       <div
-        class="flex items-center"
+        class="flex items-center justify-start"
         v-for="feature in plan.features"
         :key="feature.feature"
       >
-        <CheckCircleIcon class="h-7 w-7 mr-1 text-primary" />
+        <CheckCircleIcon class="h-7 w-7 mr-2 my-1 text-primary" />
         {{ feature.feature }}
       </div>
-    </div>
-    <div class="self-center p-6">
-      <a :href="registerUrl">
-        <button
-          class="btn btn-primary btn-wide text-white flex justify-between px-6"
-        >
-          Get Started
-          <ArrowRightIcon class="h-7 w-7 mr-1 text-white" />
-        </button>
-      </a>
     </div>
   </div>
 </template>
@@ -45,3 +45,20 @@ const props = defineProps({
 const runtimeConfig = useRuntimeConfig();
 const registerUrl = runtimeConfig.registerUrl;
 </script>
+
+<style scoped>
+.card {
+  width: 400px;
+  @apply flex flex-col rounded-md m-2 shadow-xl bg-gray-100;
+}
+
+.description {
+  height: 100px;
+  @apply text-lg py-3 text-gray-500 flex items-center justify-center;
+}
+
+.get-started-button {
+  background-color: v-bind(plan?.buttonColor) !important;
+  @apply btn btn-wide text-white flex justify-between px-6 border-none;
+}
+</style>

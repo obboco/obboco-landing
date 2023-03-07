@@ -2,7 +2,7 @@
   <div class="header">
     <div class="toolbar">
       <div class="navbar-start">
-        <a href="#">
+        <a href="/">
           <img
             class="h-8 w-auto sm:h-8"
             src="~/assets/img/logo.svg"
@@ -15,7 +15,7 @@
         <ul class="menu menu-horizontal p-0 hidden md:flex">
           <li>
             <a
-              href="#features"
+              href="/#features"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
             >
               <font-awesome-icon icon="fa-solid fa-bolt" size="lg" />
