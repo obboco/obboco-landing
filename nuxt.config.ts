@@ -4,7 +4,8 @@ export default defineNuxtConfig({
     apiSecret: '',
     public: {
       loginUrl: process.env.NUXT_LOGIN_URL,
-      registerUrl: process.env.NUXT_REGISTER_URL
+      registerUrl: process.env.NUXT_REGISTER_URL,
+      documentationUrl: process.env.NUXT_DOCUMENTATION_URL,
     }
   },
   plugins: [{ src: '~/plugins/font-awesome.ts' }],

@@ -24,6 +24,15 @@
           </li>
           <li>
             <a
+              :href="documentationUrl"
+              class="text-base font-medium text-gray-500 hover:text-gray-900"
+            >
+              <font-awesome-icon icon="fa-solid fa-book" size="lg" />
+              Documentation
+            </a>
+          </li>
+          <li>
+            <a
               href="/plans"
               class="text-base font-medium text-gray-500 hover:text-gray-900"
             >
@@ -39,16 +48,6 @@
             >
               <font-awesome-icon icon="fa-solid fa-route" size="lg" />
               Roadmap
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/orgs/obboco/discussions"
-              class="text-base font-medium text-gray-500 hover:text-gray-900"
-              target="_blank"
-            >
-              <font-awesome-icon icon="fa-regular fa-comment" size="lg" />
-              Changelog
             </a>
           </li>
           <li>
@@ -106,6 +105,12 @@
                 >
               </li>
               <li>
+                <a :href="documentationUrl"
+                  ><font-awesome-icon icon="fa-solid fa-book" size="lg" />
+                  <span class="text-base font-medium">Documentation </span></a
+                >
+              </li>
+              <li>
                 <a href="/plans">
                   <font-awesome-icon icon="fa-solid fa-layer-group" size="lg" />
                   <span class="text-base font-medium">Pricing </span></a
@@ -118,15 +123,6 @@
                 >
                   <font-awesome-icon icon="fa-solid fa-route" size="lg" />
                   <span class="text-base font-medium">Roadmap </span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://github.com/orgs/obboco/discussions"
-                  target="_blank"
-                >
-                  <font-awesome-icon icon="fa-regular fa-comment" size="lg" />
-                  <span class="text-base font-medium">Changelog </span></a
                 >
               </li>
               <li>
@@ -170,6 +166,7 @@ import { UserCircleIcon } from '@heroicons/vue/24/outline';
 const runtimeConfig = useRuntimeConfig();
 const loginUrl = runtimeConfig.loginUrl;
 const registerUrl = runtimeConfig.registerUrl;
+const documentationUrl = runtimeConfig.documentationUrl;
 </script>
 
 <style scoped>
